@@ -1,34 +1,13 @@
 {
-  "name": "node-todo-frontend",
-  "version": "1.0.0",
-  "description": "A Front-end service with node.js and handlebars for microservice example",
-  "main": "server.js",
-  "scripts": {
-    "start": "node ./src/server.js",
-    "dev": "nodemon ./src/server.js",
-    "test": "mocha -R spec src/**/*.spec.js"
-  },
-  "keywords": [
-    "node.js",
-    "handlebars",
-    "microservices",
-    "express",
-    "Front-end"
-  ],
-  "author": "Gustavo Apolinario <gustavo.guss@gmail.com>",
-  "license": "ISC",
-  "dependencies": {
-    "body-parser": "^1.18.3",
-    "bootstrap": "^4.2.1",
-    "express": "^4.16.4",
-    "express-handlebars": "^3.0.0",
-    "font-awesome": "^4.7.0",
-    "handlebars-helpers": "^0.10.0",
-    "request": "^2.88.0"
-  },
-  "devDependencies": {
-    "mocha": "^5.2.0",
-    "nock": "^10.0.4",
-    "nodemon": "^1.18.9"
-  }
+   "name": "node-app",
+   "description": "hello jenkins test app",
+   "version": "0.0.1",
+   "private": true,
+   "dependencies": {
+      "express": "^4.17.1"
+   },
+   "devDependencies": {
+      "mocha": "^6.2.0",
+      "supertest": "0.13.0"
+   }
 }
